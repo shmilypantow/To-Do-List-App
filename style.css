@@ -142,11 +142,11 @@ body {
 }
 
 .category .left img {
-    width: 2rem;
+    width: 3rem;
 }
 
 .category .content h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .category .content p {
@@ -443,8 +443,14 @@ button.add-btn {
     font-family: 'Timmana', sans-serif;
   }
 
-.company-namerpl {
-    display: flex;
-    align-items: center;
-}
+  .company-namerpl {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 0.1px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #750505;
+    font-family: 'Timmana', sans-serif;
+  }
   
